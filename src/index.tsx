@@ -1,3 +1,7 @@
 import './index.css';
 
-document.getElementById("main")!.innerText = "Hello!"
+document.body.addEventListener('click', (event) => {
+    console.log("clicked", event)
+    event.preventDefault();
+    event.stopPropagation();
+}, {capture: true})

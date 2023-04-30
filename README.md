@@ -1,5 +1,7 @@
-TypeScript Vite HTML Demo
+TypeScript Vite Disable Links or Clickable Demo
 ===========================
+
+如何在body层面拦截click事件
 
 ```
 npm install
